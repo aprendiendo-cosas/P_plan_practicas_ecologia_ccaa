@@ -6,7 +6,7 @@
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **_Duración_**: 1.5 horas
 
-![portada](https://raw.githubusercontent.com/aprendiendo-cosas/P_plan_practicas_ccaa/2024_2025/imagenes/portada.png)
+![portada](https://raw.githubusercontent.com/aprendiendo-cosas/P_plan_practicas_ccaa/2025_2026/imagenes/portada.png)
 
 
 
@@ -31,13 +31,22 @@ Además de este marco conceptual teórico, durante las prácticas seguiremos una
 + Tiene que estar alineado con los conceptos teóricos y prácticos vistos en la asignatura.
 + Debe de tener un nivel de complejidad lo suficientemente alto como para que sea retante, pero a la vez lo suficientemente abordable como para no desilusionar a los estudiantes.
 
-En este caso, el objetivo que nos planteamos durante las prácticas es la creación de un libro digital sobre los distintos tipos de ecosistemas de Sierra Nevada. Cada estudiante se hará responsable de un tipo de ecosistema de Sierra Nevada. Como tenemos más estudiantes que tipos de ecosistemas, habrá ecosistemas repetidos. No pasa nada. Esto mejorará la colaboración entre estudiantes. En cada práctica aprenderemos las competencias y habilidades necesarias para darle contenido. La siguiente presentación muestra el procedimiento a seguir y los contenidos de las prácticas. Puedes descargar la presentación [aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/raw/2024_2025/presentacion/plan_practicas_2024_2025.pdf) en pdf, [aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/raw/2024_2025/presentacion/plan_practicas_2024_2025.zip) para Mac y [aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/raw/2024_2025/presentacion/plan_practicas_2024_2025.exe) para Windows. 
+En este caso, el objetivo que nos planteamos durante las prácticas es la creación de un libro digital sobre los distintos tipos de ecosistemas de Sierra Nevada. Cada estudiante se hará responsable de un tipo de ecosistema de Sierra Nevada. Como tenemos más estudiantes que tipos de ecosistemas, habrá ecosistemas repetidos. No pasa nada. Esto mejorará la colaboración entre estudiantes. En cada práctica aprenderemos las competencias y habilidades necesarias para darle contenido. La siguiente presentación muestra el procedimiento a seguir y los contenidos de las prácticas. Puedes descargar la presentación [aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/raw/2025_2026/presentacion/plan_practicas_2025_2026.pdf) en pdf, [aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/raw/2025_2026/presentacion/plan_practicas_2025_2026.zip) para Mac y [aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/raw/2025_2026/presentacion/plan_practicas_2025_2026.exe) para Windows. 
 
 
 
  
 
 <iframe src="https://prezi.com/p/embed/qg91oXRLUnuU0LpFStO8/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="415" width="560"></iframe>
+
+
+****
+
+[Aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/archive/refs/tags/2025_2026.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
+
+****
+
+Haz click [aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
 
 ****
 
