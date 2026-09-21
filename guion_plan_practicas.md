@@ -12,7 +12,7 @@
 
 [TOC]
 
-## 1 Objetivos 
+## 1. Objetivos 
 
 En esta primera sesión de prácticas abordaremos los siguientes objetivos:
 
@@ -22,7 +22,7 @@ En esta primera sesión de prácticas abordaremos los siguientes objetivos:
 
 
 
-## Hilo argumental
+## 2. Hilo argumental
 
 En la sesión introductoria de la asignatura vimos cómo aprenderemos ecología siguiendo una metáfora "mecanicista". Asumiremos que nuestras entidades de estudio (los ecosistemas) son entidades compuestas de una serie de elementos (comunidades, condiciones abióticas, etc.), que a su vez están compuestas de otras (poblaciones, individuos, etc.). Es decir, explicaremos la realidad compleja que nos rodea siguiendo una jerarquía de elementos que funcionan a distintas escalas y que están anidados entre sí.
 
@@ -42,11 +42,10 @@ En este caso, el objetivo que nos planteamos durante las prácticas es la creaci
 <iframe src="https://prezi.com/p/embed/v2LdmK2kSWJWghzcpI6M/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="415" width="560"></iframe>
 
 
----
 
-## Marco conceptual y metodológico del programa práctico de Ecología
 
-### 1. Marco conceptual: caracterización sistémica de los ecosistemas
+## 3. Marco conceptual teórico: composición, estructura y funcionamiento
+
 
 La caracterización ecológica de cualquier entidad biofísica equivale a su definición operativa y funcional. Los ecosistemas son sistemas complejos cuyos límites territoriales y biológicos resultan frecuentemente difusos. Para abordar su estudio analítico, la teoría de sistemas ecológicos recurre a una aproximación dimensional estructurada en tres componentes fundamentales:
 
@@ -80,56 +79,29 @@ La interacción sinérgica entre la composición y la estructura genera una func
 
 ```
 
----
 
-### 2. Diseño del entregable: monografía sintética del ecosistema
+
+## 4. Diseño del entregable: ficha sintética del ecosistema
 
 El núcleo del trabajo práctico consiste en elaborar una ficha técnica monográfica (con formato de libro digital de extensión reducida) centrada en un ecosistema del gradiente altitudinal de Sierra Nevada. Cada bloque metodológico de las prácticas alimentará una sección analítica de dicha ficha:
 
 * Caracterización bioclimática histórica y escenarios predictivos de cambio climático.
-
-
 * Demografía y estructura poblacional de especies dominantes.
-
-
 * Modelización de interacciones tróficas comunitarias.
-
-
 * Cartografía digital de biodiversidad y distribución de unidades bióticas.
-
-
 * Estimación espacio-temporal de la productividad primaria neta mediante teledetección.
-
-
 * Evaluación cualitativa y cuantitativa de servicios ecosistémicos.
-
 
 
 La evaluación del entregable se centrará en el rigor procedimental, la adquisición de competencias analíticas y el hilo argumental ecológico que justifique los datos obtenidos, priorizando el proceso formativo sobre el mero resultado formal.
 
----
+De forma muy resumida abordaremos en las siguientes prácticas los distintos elementos composicionales, estructurales y funcionales de los ecosistemas a estudiar: 
 
-### 3. Programa analítico y niveles de organización ecológica
-
-```
-Escala de Ecosistema ────► Clima, Teledetección (PPN), Servicios ecosistémicos
-         ▲
-         │
-Escala de Comunidad  ────► Redes tróficas (Vensim), Cartografía de biodiversidad (SIG)
-         ▲
-         │
-Escala de Población  ────► Demografía e histogramas de edad/tamaño (R/RStudio)
-         ▲
-         │
-Bloque Metodológico  ────► Búsqueda bibliográfica, IA generativa, Metacognición
-
-```
-
-#### Bloque metodológico transversal: Gestión de información, IA y metacognición
+### 4.1 Bloque metodológico transversal: Gestión de información, IA y metacognición
 
 Sesión instrumental dedicada al diseño de estrategias de búsqueda bibliográfica científica y al empleo de modelos de lenguaje como asistentes analíticos y de programación. Se abordará la metacognición como la competencia analítica mediante la cual el investigador evalúa y optimiza sus propios mecanismos de adquisición y transferencia de conocimiento.
 
-#### Nivel de población: Dinámica demográfica y modelización en R
+### 4.2 Nivel de población: Dinámica demográfica y modelización en R
 
 Caracterización demográfica de la especie estructurante del sistema a partir de distribuciones de frecuencia de tamaño o edad. Elaboración e interpretación de pirámides poblacionales e histogramas demográficos para inferir viabilidad, tasas de reclutamiento y estado de conservación.
 
@@ -137,7 +109,7 @@ Caracterización demográfica de la especie estructurante del sistema a partir d
 
 
 
-#### Nivel de comunidad: Modelado trófico y cartografía de biodiversidad
+### 4.3 Nivel de comunidad: Modelado trófico y cartografía de biodiversidad
 
 * **Modelización de dinámica de sistemas:** Simulación temporal de interacciones bióticas multiespecíficas (depredación, competencia) mediante variables de estado y flujos numéricos utilizando el software Vensim.
 
@@ -145,8 +117,7 @@ Caracterización demográfica de la especie estructurante del sistema a partir d
 * **Análisis biogeográfico:** Elaboración de coberturas temáticas de riqueza y diversidad biológica en el territorio.
 
 
-
-#### Nivel de ecosistema: Climatología, teledetección y servicios ecosistémicos
+### 4.4 Nivel de ecosistema: Climatología, teledetección y servicios ecosistémicos
 
 * **Factores abióticos y cambio global:** Análisis de series temporales climáticas (temperatura media y precipitación) y proyecciones bioclimáticas sobre vectores territoriales mediante herramientas de geoprocesamiento.
 
@@ -158,98 +129,64 @@ Caracterización demográfica de la especie estructurante del sistema a partir d
 
 
 
----
-
-### 4. Integración instrumental: coordinación analítica entre Ecología y SIG
+## 5. Coordinación entre SIG y Ecología
 
 El programa docente mantiene una sincronización estricta con la materia de Sistemas de Información Geográfica (SIG). Las variables ecológicas no se interpretan de forma aislada o abstracta, sino explícitamente acopladas al espacio y al tiempo:
 
-$$\text{Patrón Espacial} = f(\text{Gradiente Topoclimático}, \text{Régimen de Perturbación}, \text{Dispersión Biótica})$$
-
 La componente geoespacial constituye un rasgo metodológico diferencial en las ciencias ambientales. Mientras que en el ámbito de SIG se adquieren las competencias operativas (álgebra de mapas, extracción zonal de datos ráster a vectores o procesamiento de imágenes de satélite), en Ecología se exige la justificación teórica y la interpretación de los procesos subyacentes a tales distribuciones. Ambas asignaturas operan en retroalimentación continua sobre el mismo marco de datos.
 
----
 
-### 5. Tipologías de ecosistemas objeto de caracterización
 
-El gradiente orográfico de Sierra Nevada alberga una sucesión de unidades ecológicas determinadas por gradientes térmicos, hídricos y edáficos:
+## 6. Tipos de ecosistemas a estudiar
 
-| Ecosistema | Piso Bioclimático / Situación | Factores Clave y Especies Dominantes |
-| --- | --- | --- |
-| **Pastizales de alta montaña** | Crioromediterráneo (cumbres)
+El gradiente orográfico de Sierra Nevada alberga una sucesión de unidades ecológicas determinadas por gradientes térmicos, hídricos y edáficos. En la siguiente tabla se describen brevemente los ecosistemas que estudiaremos. También se indican los nombres de los estudiantes que se han apuntado a trabajar con cada uno de ellos.
 
- | Estrato herbáceo enano; periodos prolongados de cobertura nival y crioturbación edáfica.
 
- |
-| **Borreguiles** | Depresiones glaciares y márgenes de lagunas
 
- | Pastizales higrófilos edafófilos sobre suelos permanentemente encharcados; comunidades de briófitos (*Sphagnum*) y ciperáceas.
+| Ecosistema | Piso Bioclimático / Situación | Factores Clave y Especies Dominantes | Estudiantes que trabajan en este ecosistema |
+| --- | --- | --- | --- |
+| **Pastizales de alta montaña** | Crioromediterráneo (cumbres) | Estrato herbáceo enano; periodos prolongados de cobertura nival y crioturbación edáfica. | **GM1:** Eva, Paula <br>**GM2:** Antonio |
+| **Borreguiles** | Depresiones glaciares y márgenes de lagunas | Pastizales higrófilos edafófilos sobre suelos permanentemente encharcados; comunidades de briófitos (*Sphagnum*) y ciperáceas. | **GM1:** Manuel, Ari<br>**GM2:** Irene |
+| **Piornales y enebrales** | Oromediterráneo | Matorrales xeroacánticos almohadillados y rastreros con adaptaciones al viento y la desecación (*Genista versicolor*, *Juniperus communis*). | **GM1:** Lucas Malla <br>**GM2:** *(Sin asignar)* |
+| **Pinares de repoblación** | Mesomediterráneo a oromediterráneo | Masas monoespecíficas o mixtas de coníferas de origen antrópico implantadas para control hidrológico-erosivo. | **GM1:** Rocío <br>**GM2:** Javier, Andrea |
+| **Robledales** | Supramediterráneo (enclaves húmedos) | Formaciones caducifolias o marcescentes dominadas por *Quercus pyrenaica* adaptadas a mayor precipitación y sustratos silíceos. | **GM1:** Adrián, Alexander <br>**GM2:** *(Sin asignar)* |
+| **Encinares** | Mesomediterráneo a supramediterráneo | Bosque esclerófilo mediterráneo estructurado por *Quercus ilex* subsp. *ballota*, representativo de condiciones de xericidad estival. | **GM1:** Carmen <br>**GM2:** Aleko |
+| **Matorrales de media montaña** | Mesomediterráneo | Formaciones arbustivas y subarbustivas seriales ricas en lamiáceas y cistáceas aromáticas (*Cistus*, *Rosmarinus*, *Thymus*). | **GM1:** Cristina <br>**GM2:** Paula, Lucía |
+| **Bosques de ribera** | Márgenes fluviales (azonal) | Formaciones edafófilas caducifolias (*Salix*, *Populus*, *Fraxinus*) condicionadas por el nivel freático y el régimen de inundación hídrica. | **GM1:** Jorge <br>**GM2:** Giulia, Iván |
 
- |
-| **Piornales y enebrales** | Oromediterráneo
 
- | Matorrales xeroacánticos almohadillados y rastreros con adaptaciones al viento y la desecación (*Genista versicolor*, *Juniperus communis*).
 
- |
-| **Pinares de repoblación** | Mesomediterráneo a oromediterráneo
+### 7. Sistema de trabajo, seguimiento y evaluación formativa
 
- | Masas monoespecíficas o mixtas de coníferas de origen antrópico implantadas para control hidrológico-erosivo.
-
- |
-| **Robledales** | Supramediterráneo (enclaves húmedos)
-
- | Formaciones caducifolias o marcescentes dominadas por *Quercus pyrenaica* adaptadas a mayor precipitación y sustratos silíceos.
-
- |
-| **Encinares** | Mesomediterráneo a supramediterráneo
-
- | Bosque esclerófilo mediterráneo estructurado por *Quercus ilex* subsp. *ballota*, representativo de condiciones de xericidad estival.
-
- |
-| **Matorrales de media montaña** | Mesomediterráneo
-
- | Formaciones arbustivas y subarbustivas seriales ricas en lamiáceas y cistáceas aromáticas (*Cistus*, *Rosmarinus*, *Thymus*).
-
- |
-| **Bosques de ribera** | Márgenes fluviales (azonal)
-
- | Formaciones edafófilas caducifolias (*Salix*, *Populus*, *Fraxinus*) condicionadas por el nivel freático y el régimen de inundación hídrica.
-
- |
-
----
-
-### 6. Sistema de trabajo, seguimiento y evaluación formativa
-
-* **Modalidad de trabajo y elaboración:** La autoría del informe monográfico es estrictamente individual, si bien se prescribe la interacción técnica, discusión metodológica y contraste de datos en grupos de trabajo coordinados.
+* **Modalidad de trabajo y elaboración:** La autoría del informe monográfico es estrictamente individual, si bien se recomienda la interacción técnica, discusión metodológica y contraste de datos en grupos de trabajo coordinados.
 
 
 * **Seguimiento procedimental continuo:** Se implementará un mecanismo de entregas periódicas de avance técnico tras cada práctica para evitar desfases cronológicos en el procesamiento analítico y garantizar un progreso continuado.
 
 
-* **Filosofía evaluativa:** El sistema de evaluación renuncia a la memorización mecánica tradicional de definiciones en favor de la resolución estructurada de problemas. Las pruebas se articulan en tres niveles taxonómicos de complejidad creciente:
+* **Filosofía evaluativa:** El sistema de evaluación renuncia a la memorización mecánica tradicional de definiciones en favor de la resolución estructurada de problemas. 
 
+Se aportará un guión específico con instrucciones detalladas sobre el trabajo a entregar al final del cuatrimestre.
 
-1. *Discriminación conceptual:* Identificación precisa de principios ecológicos.
-
-
-2. *Integración y relación de procesos:* Resolución analítica de casos prácticos interconectando múltiples variables de población y comunidad.
-
-
-3. *Transferencia científica:* Extrapolación de modelos y metodologías a nuevos dominios biogeográficos o situaciones de perturbación no vistas previamente.
 
 
 
 
 ****
 
-[Aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/archive/refs/tags/2025_2026.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
+[Aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/archive/refs/tags/2026_2027.zip) puedes descargar un archivo .zip que contiene este guión en formato html y todo el material que incluye.
 
 ****
 
 Haz click [aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/releases) para ver cómo ha cambiado este guión en los distintos cursos académicos.
 
+
 ****
+[Aquí](https://github.com/aprendiendo-cosas/P_plan_practicas_ccaa/blob/2026_2027/notas_imparticion_P_plan_practicas_ccaa.md) puedes ver las notas que tomó el profesor una vez que se impartió la clase.
+
+
+---
+
 
  <p xmlns:cc="http://creativecommons.org/ns#" >El contenido de este repositorio se puede utilizar bajo la siguiente licencia:  <a  href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"  target="_blank" rel="license noopener noreferrer"  style="display:inline-block;">CC BY-NC-SA 4.0<img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"  alt=""><img  style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"   src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"  alt=""></a></p> 
 
